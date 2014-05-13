@@ -14,7 +14,12 @@ int main(int argc, const char * argv[])
     @autoreleasepool {
         
         // insert code here...
-        NSLog(@"Hello, World!");
+        int storm1 = 4;
+        int storm2 = 3;
+        
+        int storm = (storm1 > storm2)? storm1 : storm2;
+        NSLog(@"which storm is greater? %i of course", storm);
+        
         
     }
     return 0;
